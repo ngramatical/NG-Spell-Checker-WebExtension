@@ -1,0 +1,125 @@
+{
+  "appName": {
+    "message": "GrammarNazi (Spell and Grammar checker)"
+  },
+  "appDesc": {
+    "message": "An automatic spellchecker for Portuguese."
+  },
+  "optionsTitle": {
+    "message": "GrammarNazi"
+  },
+  "contactFormTitle": {
+    "message": "Do you have any suggestion, question or problem to report?"
+  },
+  "messagePlaceHolder": {
+    "message": "Type your message here."
+  },
+  "email": {
+    "message": "Email"
+  },
+  "emailTip": {
+    "message": "(only if you need an answer)"
+  },
+  "Send": {
+    "message": "Send"
+  },
+  "Language": {
+    "message": "Language"
+  },
+  "EuropeanPortuguese": {
+    "message": "European Portuguese"
+  },
+  "BrazilianPortuguese": {
+    "message": "Brazilian Portuguese"
+  },
+  "noOC": {
+    "message": "-"
+  },
+  "beforeOC": {
+    "message": "Before Spelling Reform"
+  },
+  "afterOC": {
+    "message": "After Spelling Reform"
+  },
+  "languageUpdated": {
+    "message": "The spell check language was updated."
+  },
+  "CustomRules": {
+    "message": "Custom Rules"
+  },
+  "customRulesPlaceHolder": {
+    "message": "Write a regular expression followed by two spaces and the replacement. One rule per line."
+  },
+  "Save": {
+    "message": "Save"
+  },
+  "CustomRulesSaved": {
+    "message": "The custom rules were saved."
+  },
+  "AbbreviationList": {
+    "message": "Abbreviations List"
+  },
+  "RuleList": {
+    "message": "Rules List"
+  },
+  "ExplanationTableTitle": {
+    "message": "Common corrections explained"
+  },
+  "Error": {
+    "message": "Error"
+  },
+  "Correction": {
+    "message": "Correction"
+  },
+  "Explanation": {
+    "message": "Explanation"
+  },
+  "Sending": {
+    "message": "Sending"
+  },
+  "enterMessageAlert": {
+    "message": "Please type a message."
+  },
+  "messageSent": {
+    "message": "The message was sent. Thank you!"
+  },
+  "messageError": {
+    "message": "An errror has occured."
+  },
+  "noReplacementError": {
+    "message": "Rule with no replacement"
+  },
+  "Line": {
+    "message": "Line"
+  },
+  "rulesError": {
+    "message": "The following rules have syntax errors:\n\n$1\n\nRemember: you should use regular expressions."
+  },
+  "enableSpellChecker": {
+    "message": "Enable spell checker"
+  },
+  "enableGlobal": {
+    "message": "Global"
+  },
+  "enableDomain": {
+    "message": "This domain"
+  },
+  "enablePage": {
+    "message": "This page"
+  },
+  "Options": {
+    "message": "Options"
+  },
+  "fixCapitalization": {
+    "message": "Fix capitalization"
+  },
+  "fixAccentuation": {
+    "message": "Fix accentuation"
+  },
+  "fixAbbreviations": {
+    "message": "Expand abbreviations"
+  },
+  "MoreOptions": {
+    "message": "More options"
+  }
+}

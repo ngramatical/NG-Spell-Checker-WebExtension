@@ -1,0 +1,125 @@
+{
+  "appName": {
+    "message": "NaziGramatical (Corretor Ortográfico)"
+  },
+  "appDesc": {
+    "message": "Corrige automaticamente erros ortográficos e gramaticais em português."
+  },
+  "optionsTitle": {
+    "message": "NaziGramatical"
+  },
+  "contactFormTitle": {
+    "message": "Tens alguma sugestão, pergunta, ou problema a reportar?"
+  },
+  "messagePlaceHolder": {
+    "message": "Introduz a tua mensagem aqui."
+  },
+  "email": {
+    "message": "E-mail"
+  },
+  "emailTip": {
+    "message": "(apenas se necessitares de uma resposta)"
+  },
+  "Send": {
+    "message": "Enviar"
+  },
+  "Language": {
+    "message": "Idioma"
+  },
+  "EuropeanPortuguese": {
+    "message": "Português europeu"
+  },
+  "BrazilianPortuguese": {
+    "message": "Português brasileiro"
+  },
+  "noOC": {
+    "message": "-"
+  },
+  "beforeOC": {
+    "message": "pré-AO90"
+  },
+  "afterOC": {
+    "message": "pós-AO90"
+  },
+  "languageUpdated": {
+    "message": "O idioma do corretor foi atualizado."
+  },
+  "CustomRules": {
+    "message": "Regras personalizadas"
+  },
+  "customRulesPlaceHolder": {
+    "message": "Introduz uma expressão regular seguida de dois espaços e a substituição. Uma regra por linha."
+  },
+  "Save": {
+    "message": "Guardar"
+  },
+  "CustomRulesSaved": {
+    "message": "As regras personalizadas foram guardadas."
+  },
+  "AbbreviationList": {
+    "message": "Lista de abreviaturas"
+  },
+  "RuleList": {
+    "message": "Lista de regras"
+  },
+  "ExplanationTableTitle": {
+    "message": "Lista e explicação de algumas correções efetuadas"
+  },
+  "Error": {
+    "message": "Erro"
+  },
+  "Correction": {
+    "message": "Correção"
+  },
+  "Explanation": {
+    "message": "Explicação"
+  },
+  "Sending": {
+    "message": "A enviar"
+  },
+  "enterMessageAlert": {
+    "message": "Por favor introduz uma mensagem."
+  },
+  "messageSent": {
+    "message": "A mensagem foi enviada. Obrigado!"
+  },
+  "messageError": {
+    "message": "Parece ter ocorrido um erro no envio da mensagem."
+  },
+  "noReplacementError": {
+    "message": "Regra sem substituição"
+  },
+  "Line": {
+    "message": "Linha"
+  },
+  "rulesError": {
+    "message": "As seguintes regras têm uma sintaxe errada:\n\n$1\n\nLembra-te que deverás usar expressões regulares."
+  },
+  "enableSpellChecker": {
+    "message": "Ativar a correção automática"
+  },
+  "enableGlobal": {
+    "message": "Globalmente"
+  },
+  "enableDomain": {
+    "message": "Neste site"
+  },
+  "enablePage": {
+    "message": "Nesta página"
+  },
+  "Options": {
+    "message": "Opções"
+  },
+  "fixCapitalization": {
+    "message": "Corrigir maiúsculas"
+  },
+  "fixAccentuation": {
+    "message": "Corrigir acentuação"
+  },
+  "fixAbbreviations": {
+    "message": "Expandir abreviaturas"
+  },
+  "MoreOptions": {
+    "message": "Mais opções"
+  }
+}

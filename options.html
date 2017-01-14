@@ -1,0 +1,68 @@
+<head>
+    <meta charset="UTF-8"> 
+    <style>
+        body {
+            background-color: #D9E9FF;
+        }
+        #errorTable, #errorTable th, #errorTable td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 4px;
+        }
+        textarea {
+            width: 760px;
+            max-width: 90%
+        }
+        #customRules {
+            font-family: monospace;
+            line-height: normal;
+        }
+        #abbrs, #rules {
+            background-color: white;
+            border: 1px solid #bfbfbf;
+            border-radius: 2px;
+            max-height: 300px;
+            overflow-y: scroll;
+            width: 760px;
+        }
+    </style>
+    <title>__MSG_optionsTitle__</title>
+    <script src="options.js"></script>
+</head>
+
+<body>
+    <h1>__MSG_optionsTitle__</h1>
+    <h2>__MSG_ContactFormTitle__</h2>
+    <form id="contactForm">
+        <p><textarea rows="5" id="msg" placeholder="__MSG_messagePlaceHolder__"></textarea></p>
+        <p><label><input id="email" type="email" placeholder="__MSG_email__" /> __MSG_emailTip__</p>
+        <p><input id="submitButton" type="submit" value="__MSG_Send__" /> <span id="messageFeedback" style="display: none;"></span></p>
+    </form>
+    <h2>__MSG_Language__</h2>
+    <select id="language"><option value="pt-PT">__MSG_EuropeanPortuguese__</option><option value="pt-BR">__MSG_BrazilianPortuguese__</option></select>
+    <select id="spelling"><option>__MSG_noOC__</option><option>__MSG_beforeOC__</option><option>__MSG_afterOC__</option></select>
+    <span id="languageSaved" style="display: none;">__MSG_LanguageUpdated__</span>
+    <h2>__MSG_CustomRules__:</h2>
+    <p><textarea id="customRules" rows="15" placeholder="__MSG_customRulesPlaceHolder__"></textarea></p>
+    <p><input id="saveCustomRules" type="button" value="__MSG_Save__" /> <span id="customRulesSaved" style="display: none;">__MSG_CustomRulesSaved__</span></p>
+    <h2>__MSG_AbbreviationList__:</h2>
+    <div id="abbrs"></div>
+    <h2>__MSG_RuleList__:</h2>
+    <div id="rules"></div>
+    <h2>__MSG_ExplanationTableTitle__:</h2>
+    <table id="errorTable">
+        <tr><th>__MSG_Error__</th><th>__MSG_Correction__</th><th>__MSG_Explanation__</th></tr>
+        <tr><td>á algum <i>tempo</i> atrás</td><td>há algum <i>tempo</i></td><td>Utiliza-se o verbo haver para exprimir tempo decorrido. Atrás é redundante.</td></tr>
+        <tr><td>haviam <i>coisas</i>, vão haver…</td><td>havia <i>coisas</i>, vai haver…</td><td>O verbo haver conjuga-se sempre no singular quando significa «existir».</td></tr>
+        <tr><td><i>automática</i>mente…</td><td><i>automatica</i>mente…</td><td>Os advérbios de modo com a terminação -mente não são acentuados graficamente.</td></tr>
+        <tr><td>nú, sí, perú…</td><td>nu, si, peru…</td><td>Palavras terminadas em <i>i</i> ou <i>u</i>, seguido ou não de <i>s</i>, <i>m</i> ou <i>ns</i>, são naturalmente agudas.</td></tr>
+        <tr><td>tivémos, côco…</td><td>tivemos, coco…</td><td>Palavras terminadas em <i>a</i>, <i>e</i> ou <i>o</i>, seguido ou não de <i>s</i>, <i>m</i>, ou <i>ns</i>, são naturalmente graves.</td></tr>
+        <tr><td>fôr, impôr…</td><td>for, impor…</td><td>Palavras terminadas em <i>consoante</i>, excepto terminadas em <i>s</i>, <i>m</i>, ou <i>ns</i>, são naturalmente agudas.</td></tr>
+        <tr><td>práctica, contracto…</td><td>prática, contrato…</td><td>Estas palavras já se escreviam desta forma <b>antes</b> do acordo ortográfico de 1990.</td></tr>
+        <tr><td>voçê, esqueçe…</td><td>você, esquece…</td><td>Um C seguido de E ou I nunca leva cedilha.</td></tr>
+        <tr><td>bébé, tótó…</td><td>bebé, totó</td><td>Não há palavras com dupla acentuação. (Til não é acento.)</td></tr>
+        <tr><td>porque motivo</td><td>por que motivo</td><td>Por que motivo. = Por qual motivo.</td></tr>
+        <tr><td>por que não…</td><td>porque não…</td><td>Porque não… = Por que motivo não…</td></tr>
+    </table>
+    <p>Devido à ambiguidade inerente a alguns erros gramaticais certas construções menos comuns podem ser corrigidas erradamente, nesse caso basta fazer <code>ctrl+z</code> para anular a correção.</p>
+</body>

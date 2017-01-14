@@ -1,0 +1,34 @@
+<meta charset="UTF-8"> 
+<style>
+    td, th {
+        white-space: nowrap;
+        text-align: left;
+    }
+    label {
+        display: block;
+    }
+    .disabled {
+        color: #ccc;
+    }
+    #optionsButton {
+        position:relative;
+    float:right;
+    }
+</style>
+<script src="browser-polyfill.js"></script>
+<script src="popup.js"></script>
+<table>
+    <tr><th colspan="2">__MSG_enableSpellChecker__:</th></tr>
+    <tr><td><label><input id="global" type="checkbox" />__MSG_enableGlobal__</label></td></tr>
+    <tr><td><label><input id="domain" type="checkbox" />__MSG_enableDomain__</label></td></tr>
+    <tr><td><label><input id="page" type="checkbox" />__MSG_enablePage__</label></td></tr>
+</table>
+<hr>
+<table>
+    <tr><th colspan="2">__MSG_Options__:</th></tr>
+    <tr><td><label><input id="capitalization" data-option="capitalization" type="checkbox" />__MSG_fixCapitalization__</label></td></tr>
+    <tr><td><label><input id="accentuation" data-option="accentuation" type="checkbox" />__MSG_fixAccentuation__</label></td></tr>
+    <tr><td><label><input id="abbreviations" data-option="abbreviations" type="checkbox" />__MSG_fixAbbreviations__</label></td></tr>
+</table>
+<hr>
+<button id="optionsButton">__MSG_MoreOptions__</button>
